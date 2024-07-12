@@ -9,7 +9,7 @@ function destructivelyPrependCat (name) {
 }
 
 function destructivelyRemoveLastCat () {
-  cats.pop();
+  return cats.pop();
 }
 
 function destructivelyRemoveFirstCat () {
@@ -29,9 +29,8 @@ function removeFirstCat () {
 }
 
 function removeLastCat () {
-  return
-tune kivasu
-10:21 AM
+  return cats.slice(0,2)
+
 const drivers = ["Milo", "Otis", "Garfield"];
 
 function destructivelyAppendDriver (name) {
@@ -60,3 +59,5 @@ function prependDriver (name) {
 
 function removeFirstDriver () {
   return drivers.slic
+}
+}
